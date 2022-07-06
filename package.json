@@ -1,0 +1,26 @@
+{
+    "name": "pearl-theme",
+    "displayName": "pearl theme",
+    "description": "A minimalist theme to code all day without, yes, destroying th",
+    "version": "0.0.1",
+    "publisher": "laurenpaviot",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LaurenPaviot/Pearl-Theme"
+    },
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "pearl theme",
+                "uiTheme": "vs",
+                "path": "./themes/pearl theme-color-theme.json"
+            }
+        ]
+    }
+}
