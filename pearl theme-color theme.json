@@ -1,0 +1,23 @@
+{
+	"name" : "pearl theme",
+	"type" : "light",
+	"colors" : {
+		"editor.background": "#fff0f5",
+		"editor.foreground": "ffffff80",
+		"list.ActiveSelectionIconForeground": "ffffff80"
+	},
+	"tokenColors": [
+		{
+			"name": "comments",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "ffffff80",
+				"fontStyle": "italic" 
+			}
+		}
+	]
+
+}
